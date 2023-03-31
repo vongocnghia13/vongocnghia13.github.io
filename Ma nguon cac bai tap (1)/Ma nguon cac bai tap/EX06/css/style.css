@@ -1,0 +1,96 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#f4f4f4;
+  }
+
+/* Global */
+.container{
+  margin-left: 90px;
+  
+
+}
+
+ul{
+margin-top: -10px;
+}
+
+/* Header **/
+header{
+  background:#000000;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:red 3px solid;
+}
+
+header a{
+  color:yellow ;
+  text-decoration:inherit;
+  text-transform:uppercase ;
+  font-size:auto;
+}
+
+header li{
+  float:right;
+  display: inline-block;
+  padding: 15px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin: 5px;
+  font-size: 35px;
+}
+
+header nav{
+  float:right;
+  margin-top:18px;
+}
+
+header .highlight, header .current a{
+  color:blueviolet;
+  font-weight: 20px;
+  
+}
+
+header a:hover{
+  color:rgb(12, 12, 12);
+  font-weight:20px;
+}
+
+/* Showcase */
+#showcase{
+  
+  background-image:url("https://hoctructuyencntt.github.io/TKWEB/img/Ex06.");
+  color:#ffffff;
+  padding-top:100px;
+  min-height:300px;
+  
+}
+
+#showcase h1{
+  text-align: center;
+  font-size: 40px;
+
+}
+
+#showcase p{
+  text-align: center;
+  font-size: x-large;
+}
+
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#e8491d;
+    text-align: center;
+  }
+
+
